@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+        <meta name="description" content="Google Advanced Search">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+        <!-- Custom styles for homepage -->
+        <link href="styles.css" rel="stylesheet">
+
+        <title>Google Advanced Search</title>
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <nav class="navbar sticky-top bg-white navbar-expand-sm navbar-white">
+            <div class="container-xxl">
+                <a href="index.html" class="navbar-brand nav-link">
+                    <img src="assets/Google_2015_logo.png" class="google-logo mt-0">
+                </a>
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Google Search
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Search form -->
+        <main>
+            <div class="title-bar">
+                <label class="advanced-label">Advanced Search</label>
+            </div>
+            <div class="gray-border"></div>
+            <div class="container align-left">
+                <div class="find-pages">
+                    <label for="buffer">Find pages with...</label>
+                </div>
+                <div class="mb-5" id="buffer">&nbsp;</div>
+
+                <form action="https://www.google.com/search">
+                    <div class="form-row">
+                        <label for="all-words" class="advanced-row-label">all these words:</label>
+                        <input id="all-words" type="text" class="advanced-input" name="as_q">
+                    </div>
+                    <div class="form-row">
+                        <label for="this-word-phrase" class="advanced-row-label">this exact word or phrase:</label>
+                        <input id="this-word-phrase" type="text" class="advanced-input" name="as_epq">
+                    </div>
+                    <div class="form-row">
+                        <label for="any-word" class="advanced-row-label">any of these words:</label>
+                        <input id="any-word" type="text" class="advanced-input" name="as_oq">
+                    </div>
+                    <div class="form-row">
+                        <label for="none-words" class="advanced-row-label">none of these words:</label>
+                        <input id="none-words" type="text" class="advanced-input" name="as_eq">
+                    </div>
+                    <div class="form-row align-right">
+                        <label for="advanced-submit" class="advanced-row-label"></label>
+                        <button id="advanced-submit" type="submit" class="advanced-btn btn btn-primary border">Advanced Search</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+
+</html>

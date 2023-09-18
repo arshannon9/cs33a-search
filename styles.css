@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+}
+
+button {
+    width: 150px;
+    margin: 5px;
+}
+
+form {
+    color: #D6544D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: justify;
+    display: table;
+}
+
+.advanced-btn {
+    font-size: 14px;
+    display: table-cell;
+}
+
+.advanced-label {
+    margin-left: 25px;
+}
+
+.advanced-row-label,
+.advanced-input {
+    color: #000;
+    display: table-cell;
+    font-size: 14px;
+    margin: 5px;
+    width: 200px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.center {
+    margin-top: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-lg {
+    min-height: 100vh;
+    position: relative;
+}
+
+.find-pages {
+    color: #333;
+    float: left;
+    margin-top: 25px;
+    min-width: 167px;
+    min-height: 42px;
+    vertical-align: middle;
+    width: 16%;
+    font-size: 16px;
+}
+
+.form-control {
+    border-radius: 1.5rem;
+    width: 450px;
+}
+
+.form-row {
+    display: table-row;
+}
+
+.gray-border {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.google-logo {
+    height: 24px;
+    width: 74px;
+    vertical-align: center;
+}
+
+.google-logo-lg {
+    height: 92px;
+    width: 272px;
+}
+
+.images-label {
+    color: #4285f4;
+    position: absolute;
+    left: 328.2px;
+    bottom: 112px;
+    white-space: nowrap;
+}
+
+.navbar-brand {
+    float: left;
+    margin: 5px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.nav-item {
+    margin: 0 5px 0 5px;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.title-bar {
+    color: #D93025;
+    display: block;
+    font-size: 20px;
+    margin: 25px 35px;
+}
